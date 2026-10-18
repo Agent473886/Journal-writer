@@ -6,7 +6,7 @@ void writing(void)
 {
  FILE *writing;
 
- //getch();
+ 
  char filename[200];
  char text[100000];
 
@@ -21,7 +21,7 @@ void writing(void)
   fgets(text,100000,stdin);
  fprintf(writing,"%s",text);
  fclose(writing);
- //return filename;
+ 
 
 }
 int main()
